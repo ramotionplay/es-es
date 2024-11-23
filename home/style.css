@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background: black;
+}
+
+.navbar{
+display: flex;
+position: fixed;
+width: 100%;
+}
+
+.logo_nav img{
+max-width: 160px;
+}
+
+
+.btns_nav{
+padding-top: 10px;
+display: flex;
+margin-left: 10%;
+}
+
+.btn{
+margin-left: 10px;
+}
+
+.btn button{
+width: 120px;
+height: 30px;
+backdrop-filter: blur(15px);
+background-color: rgb(196 193 193 / 50%);
+border: none;
+border-radius: 20px;
+color: white;
+}
+
+
+
+.cont_info{
+padding-top: 6%;
+margin-left: 10px;
+}
+
+.logo_cont img{
+max-width: 300px;
+}
+
+.button_info{
+margin-left: 60px;
+}
+
+.button_info button{
+width: 130px;
+height: 40px;
+border: none;
+border-radius: 20px;
+}
+
+.carrusel{
+padding-top: 10%;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+
+
+.cards_section{
+width: 180px;
+height: 80px;
+border: 1px solid white;
+margin-left: 10px;
+backdrop-filter: blur(15px);
+}
+.cards_section img{
+display: block;
+margin: 0 auto;
+max-width: 100%;
+max-height: 100%;
+}
+
+.ramotion:hover{
+background-image: url(/uploads/ramotion_font.jpg);
+background-size: cover;
+}
+
+.veracruj:hover{
+background-image: url(/uploads/font_ver.jpg);
+background-size: cover;
+}
+
+.catolic:hover{
+background-image: url(/uploads/catolicfont.jpg);
+background-size: cover;
+}
