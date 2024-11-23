@@ -89,16 +89,16 @@ max-height: 100%;
 }
 
 .ramotion:hover{
-background-image: url(/uploads/ramotion_font.jpg);
+background-image: url(/es-es/uploads/ramotion_font.jpg);
 background-size: cover;
 }
 
 .veracruj:hover{
-background-image: url(/uploads/font_ver.jpg);
+background-image: url(/es-es/uploads/font_ver.jpg);
 background-size: cover;
 }
 
 .catolic:hover{
-background-image: url(/uploads/catolicfont.jpg);
+background-image: url(/es-es/uploads/catolicfont.jpg);
 background-size: cover;
 }
